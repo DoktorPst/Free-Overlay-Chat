@@ -17,6 +17,23 @@
 
 ---
 
+## 🆓 Accès & licence
+
+- ✅ **100% gratuit**
+- ✅ **Libre d’utilisation**
+- ✅ **Aucune attribution obligatoire**
+- ✅ **Modifiable librement**
+
+👉 Tu peux l’utiliser, le modifier et l’adapter sans restriction.
+
+---
+
+## 🌍 Langue
+
+- 🇫🇷 Disponible uniquement en **français** (interface / configuration)
+
+---
+
 ## ⚙️ Fonctionnement
 
 Le projet repose sur 4 composants principaux :
@@ -28,10 +45,10 @@ Le projet repose sur 4 composants principaux :
 
 ---
 
-## 🚀 Installation (méthode correcte)
+## 🚀 Installation
 
 ### 1. Aller sur StreamElements
-- Connecte-toi sur ton compte StreamElements
+- Connecte-toi à ton compte
 - Va dans **Overlays**
 
 ---
@@ -45,31 +62,48 @@ Le projet repose sur 4 composants principaux :
 
 ### 3. Ajouter un widget custom
 - Clique sur **Add Widget**
-- Choisis **Custom Widget**
+- Sélectionne **Custom Widget**
 
 ---
 
-### 4. Importer les fichiers du projet
+### 4. Importer les fichiers
 
 Dans le widget :
 
-- Onglet **HTML** → colle le contenu de `HTML.html`  
-- Onglet **CSS** → colle le contenu de `CSS.css`  
-- Onglet **JS** → colle le contenu de `JS.js`  
-- Onglet **Fields** → colle le contenu de `FIELDS.json`  
+- Onglet **HTML** → colle `HTML.html`  
+- Onglet **CSS** → colle `CSS.css`  
+- Onglet **JS** → colle `JS.js`  
+- Onglet **Fields** → colle `FIELDS.json`  
 
 ---
 
-### 5. Sauvegarder
+### 5. Finaliser
 - Clique sur **Done**
-- Sauvegarde l’overlay
+- Sauvegarde
 
 ---
 
-### 6. Ajouter dans OBS
+### 6. OBS
 - Copie l’URL de l’overlay
-- Ajoute une **source navigateur** dans OBS
+- Ajoute une **source navigateur**
 - Colle l’URL
+
+---
+
+## 💡 Points forts
+
+- Ultra personnalisable
+- Effets visuels avancés (sang, flammes, animations)
+- Réactif au comportement du chat
+- Direction artistique immersive
+
+---
+
+## 📢 Réseaux
+
+- 🎮 Twitch : https://twitch.tv/Paglorieux  
+- 🧪 Twitch : https://twitch.tv/DoktorPst  
+- ▶️ YouTube : https://youtube.com/@Paglorieux  
 
 ---
 
