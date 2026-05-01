@@ -1,112 +1,125 @@
-🩸 Blood Chat — Diablo Edition
-🔥 Présentation
+# 🩸 Blood Chat — Diablo Edition
 
-Blood Chat — Diablo Edition est un widget de chat overlay avancé pour stream (type Twitch / OBS), avec une direction artistique dark fantasy inspirée de Diablo.
+## 🔥 Présentation
+**Blood Chat — Diablo Edition** est un widget de chat overlay avancé pour stream (Twitch / OBS), conçu pour transformer un chat classique en expérience visuelle immersive inspirée de l’univers Diablo.
 
-Objectif : transformer un chat classique en expérience visuelle immersive, réactive et personnalisable.
+---
 
-⚙️ Fonctionnement global
+## ⚙️ Fonctionnement
 
-Le projet repose sur 4 blocs :
+Le projet repose sur 4 composants principaux :
 
-HTML → structure du widget
-CSS → design, animations, effets visuels
-JavaScript → logique dynamique du chat
-FIELDS.json → configuration complète utilisateur
+- `HTML.html` → Structure du widget
+- `CSS.css` → Design + animations + effets visuels
+- `JS.js` → Logique dynamique du chat
+- `FIELDS.json` → Configuration complète
 
-👉 Le widget reçoit des messages (via StreamElements / Streamlabs) et les transforme en éléments visuels animés.
+---
 
-🧠 Logique technique
-1. Injection des messages
+## 🧠 Logique technique
 
-Chaque message entrant :
+### 📩 Injection des messages
+Chaque message :
+- est filtré (bots, commandes…)
+- est analysé (viewer, sub, mod, VIP…)
+- est injecté dynamiquement dans le chat
 
-est filtré (bots, commandes, longueur)
-reçoit un type (viewer, sub, mod, VIP, broadcaster)
-est injecté dans le DOM (chat-list)
+---
 
-👉 Géré dans le JS (addMessage)
-
-2. Rendu visuel dynamique
-
+### 🎨 Rendu visuel
 Chaque message génère :
+- une bulle stylisée
+- des effets de sang dynamiques (SVG)
+- une animation d’entrée et sortie
+- un style selon le rôle utilisateur
 
-une bulle stylisée
-des effets de sang SVG procéduraux
-une animation d’entrée / sortie
-des variations selon le badge utilisateur
+---
 
-👉 Système de rendu + génération visuelle dans le JS + CSS
+### ✨ Effets spéciaux
 
-3. Système d’effets avancés
+- 🔴 Sang dynamique (couleur selon badge)
+- 💥 Flash si mention du streamer
+- ⭐ Effet premier message
+- 🌪️ Shake si chat actif
+- 🔥 Flammes, braises, runes animées
+- 👻 Mode idle (messages fantômes)
 
-Le widget intègre plusieurs mécaniques temps réel :
+---
 
-🔴 Sang dynamique (couleur selon rôle)
-💥 Flash si mention du streamer
-⭐ Effet spécial premier message
-🌪️ Shake si chat actif
-🔥 Flammes, braises, runes animées
-👻 Mode idle (messages fantômes)
-
-👉 Piloté par des conditions runtime (activité, contenu message)
-
-4. Gestion de visibilité
-
+### 👁️ Gestion de visibilité
 Le widget :
+- apparaît à l’arrivée d’un message
+- disparaît après inactivité
+- affiche un mode idle visuel
 
-apparaît quand un message arrive
-disparaît après inactivité
-passe en mode “idle visuel”
+---
 
-👉 Système d’état (isVisible, idleCycle) dans le JS
+## 🎛️ Personnalisation
 
-🎛️ Personnalisation (FIELDS.json)
+Tout est configurable dans `FIELDS.json`
 
-Le cœur du projet.
+### 🎨 Visuel
+- Couleurs (fond, texte, sang)
+- Opacité
+- Taille du widget
+- Typographie
 
-Tu peux configurer :
+### 🩸 Effets
+- Intensité du sang
+- Animations
+- Effets spéciaux (flash, shake…)
 
-🎨 Visuel
-couleurs (fond, texte, sang)
-opacité
-taille du widget
-typographie
-🩸 Effets
-intensité du sang
-animations entrée / sortie
-effets spéciaux (shake, flash…)
-🔥 Ambiance Diablo
-flammes
-braises
-drips
-runes
-👁️ Comportement
-durée de vie des messages
-nombre max affiché
-gestion idle
+### 🔥 Ambiance Diablo
+- Flammes
+- Braises
+- Drips
+- Runes
 
-👉 Tout est modifiable sans toucher au code
+### 📐 Layout
+- Nombre de messages
+- Espacement
+- Taille du chat
 
-🧩 Structure du widget
-Header → titre + décor
-Bannière → nom de chaîne
-Body → zone chat
-Footer → flammes + effets
+---
 
-👉 Layout complet défini en HTML
+## 🧩 Structure
 
-🚀 Installation
-Upload les fichiers sur ton repo
-Connecte le widget à StreamElements / OBS
-Configure via FIELDS.json
-Ajoute la source navigateur dans OBS
-💡 Points forts
-Ultra personnalisable
-Effets visuels uniques (pas un chat classique)
-Réactif au comportement du chat
-Direction artistique cohérente (Diablo)
-⚠️ À savoir
-Projet orienté overlay streaming
-Nécessite un environnement type StreamElements
-Peut être gourmand si trop d’effets activés
+- Header → Titre + décor
+- Bannière → Nom de chaîne
+- Body → Zone chat
+- Footer → Flammes + effets
+
+---
+
+## 🚀 Installation
+
+1. Upload les fichiers dans le repo
+2. Connecter le widget à StreamElements / OBS
+3. Configurer `FIELDS.json`
+4. Ajouter en source navigateur dans OBS
+
+---
+
+## 💡 Points forts
+
+- Ultra personnalisable
+- Effets visuels uniques
+- Réactif au comportement du chat
+- Direction artistique cohérente
+
+---
+
+## ⚠️ Limitations
+
+- Dépend d’un environnement streaming (StreamElements / OBS)
+- Peut être gourmand si beaucoup d’effets activés
+
+---
+
+## 📌 Conclusion
+
+Ce projet transforme le chat en élément visuel central du stream.
+
+Ce n’est pas un overlay classique, c’est une **expérience interactive immersive**.
+
+---
