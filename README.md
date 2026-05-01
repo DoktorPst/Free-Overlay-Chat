@@ -7,8 +7,13 @@
 
 ## 🖼️ Aperçu
 
-![Preview 1](https://i.ibb.co/HpR2YvqP/image.png)
-![Preview 2](https://i.ibb.co/hnbSV2K/image.png)
+<p align="center">
+  <img src="https://i.ibb.co/HpR2YvqP/image.png" width="100%">
+</p>
+
+<p align="center">
+  <img src="https://i.ibb.co/hnbSV2K/image.png" width="100%">
+</p>
 
 ---
 
@@ -20,72 +25,6 @@ Le projet repose sur 4 composants principaux :
 - `CSS.css` → Design + animations + effets visuels  
 - `JS.js` → Logique dynamique du chat  
 - `FIELDS.json` → Configuration complète  
-
----
-
-## 🧠 Logique technique
-
-### 📩 Injection des messages
-Chaque message :
-- est filtré (bots, commandes…)
-- est analysé (viewer, sub, mod, VIP…)
-- est injecté dynamiquement dans le chat
-
----
-
-### 🎨 Rendu visuel
-Chaque message génère :
-- une bulle stylisée
-- des effets de sang dynamiques (SVG)
-- une animation d’entrée et sortie
-- un style spécifique selon le rôle utilisateur
-
----
-
-### ✨ Effets spéciaux
-
-- 🔴 Sang dynamique (couleur selon badge)
-- 💥 Flash si mention du streamer
-- ⭐ Effet premier message
-- 🌪️ Shake si chat actif
-- 🔥 Flammes, braises, runes animées
-- 👻 Mode idle (messages fantômes)
-
----
-
-### 👁️ Gestion de visibilité
-Le widget :
-- apparaît à l’arrivée d’un message
-- disparaît après inactivité
-- affiche un mode idle visuel
-
----
-
-## 🎛️ Personnalisation
-
-Tout est configurable dans `FIELDS.json`
-
-### 🎨 Visuel
-- Couleurs (fond, texte, sang)
-- Opacité
-- Taille du widget
-- Typographie
-
-### 🩸 Effets
-- Intensité du sang
-- Animations
-- Effets spéciaux (flash, shake…)
-
-### 🔥 Ambiance Diablo
-- Flammes
-- Braises
-- Drips
-- Runes
-
-### 📐 Layout
-- Nombre de messages
-- Espacement
-- Taille du chat
 
 ---
 
@@ -131,22 +70,6 @@ Dans le widget :
 - Copie l’URL de l’overlay
 - Ajoute une **source navigateur** dans OBS
 - Colle l’URL
-
----
-
-## 💡 Points forts
-
-- Ultra personnalisable
-- Effets visuels uniques
-- Réactif au comportement du chat
-- Direction artistique immersive (Diablo)
-
----
-
-## ⚠️ Limitations
-
-- Fonctionne uniquement via StreamElements
-- Peut être gourmand si beaucoup d’effets activés
 
 ---
 
