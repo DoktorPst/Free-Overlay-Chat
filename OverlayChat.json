@@ -1,0 +1,391 @@
+{
+  "widgetName": {
+    "type": "hidden",
+    "value": "🩸 Blood Chat — Diablo Edition FINAL"
+  },
+  "widgetTitle": {
+    "type": "text",
+    "label": "Titre du cadre",
+    "value": "Chat des Damnés"
+  },
+  "bannerMode": {
+    "type": "dropdown",
+    "label": "Mode bannière",
+    "value": "streamOnly",
+    "options": {
+      "none": "Pas de bannière",
+      "streamOnly": "Nom chaîne uniquement",
+      "fullName": "Streamer : Chaîne"
+    },
+    "group": "🏷️ Bannière"
+  },
+  "streamName": {
+    "type": "text",
+    "label": "Nom de la chaîne",
+    "value": "Paglorieux",
+    "group": "🏷️ Bannière"
+  },
+  "streamerName": {
+    "type": "text",
+    "label": "Pseudo streamer (mode complet)",
+    "value": "DoktorP3st",
+    "group": "🏷️ Bannière"
+  },
+  "mentionAliases": {
+    "type": "text",
+    "label": "Pseudos à surveiller pour le flash (séparés par virgule)",
+    "value": "DoktorP3st, Paglorieux",
+    "group": "✨ Effets spéciaux"
+  },
+  "animOutType": {
+    "type": "dropdown",
+    "label": "Animation de sortie des messages",
+    "value": "dissolve",
+    "options": {
+      "fade": "Fondu simple",
+      "collapse": "S'effondre vers le bas",
+      "dissolve": "Se dissout (sang qui sèche)"
+    },
+    "group": "✨ Effets spéciaux"
+  },
+  "shakeEnabled": {
+    "type": "checkbox",
+    "label": "Secouer le cadre quand le chat s'emballe",
+    "value": true,
+    "group": "✨ Effets spéciaux"
+  },
+  "shakeThreshold": {
+    "type": "slider",
+    "label": "Nb messages en 5s pour déclencher le shake",
+    "value": 5,
+    "min": 3,
+    "max": 15,
+    "step": 1,
+    "group": "✨ Effets spéciaux"
+  },
+  "subFontBoost": {
+    "type": "dropdown",
+    "label": "Taille police abonnés",
+    "value": "1.0",
+    "options": {
+      "1.0": "Normale",
+      "1.05": "+5%",
+      "1.1": "+10%",
+      "1.15": "+15%"
+    },
+    "group": "✨ Effets spéciaux"
+  },
+  "modFontBoost": {
+    "type": "dropdown",
+    "label": "Taille police modérateurs",
+    "value": "1.05",
+    "options": {
+      "1.0": "Normale",
+      "1.05": "+5%",
+      "1.1": "+10%",
+      "1.15": "+15%"
+    },
+    "group": "✨ Effets spéciaux"
+  },
+  "bgWidgetColor": {
+    "type": "colorpicker",
+    "label": "Couleur fond général du widget",
+    "value": "#0a0005",
+    "group": "🎨 Fond & Couleurs"
+  },
+  "bgWidgetOpacity": {
+    "type": "slider",
+    "label": "Opacité fond général (0=transparent, 35=recommandé)",
+    "value": 35,
+    "min": 0,
+    "max": 85,
+    "step": 5,
+    "group": "🎨 Fond & Couleurs"
+  },
+  "bgColor": {
+    "type": "colorpicker",
+    "label": "Couleur fond bulles",
+    "value": "#08000a",
+    "group": "🎨 Fond & Couleurs"
+  },
+  "bgOpacity": {
+    "type": "slider",
+    "label": "Opacité bulles (0–100)",
+    "value": 92,
+    "min": 0,
+    "max": 100,
+    "step": 1,
+    "group": "🎨 Fond & Couleurs"
+  },
+  "textColor": {
+    "type": "colorpicker",
+    "label": "Couleur texte",
+    "value": "#ddd0c0",
+    "group": "🎨 Fond & Couleurs"
+  },
+  "bloodColor": {
+    "type": "colorpicker",
+    "label": "Couleur sang (viewers)",
+    "value": "#7a0000",
+    "group": "🩸 Sang"
+  },
+  "bloodColorLight": {
+    "type": "colorpicker",
+    "label": "Couleur sang reflets",
+    "value": "#cc2020",
+    "group": "🩸 Sang"
+  },
+  "bloodIntensity": {
+    "type": "slider",
+    "label": "Nb taches (0=off)",
+    "value": 12,
+    "min": 0,
+    "max": 25,
+    "step": 1,
+    "group": "🩸 Sang"
+  },
+  "bloodMaxSize": {
+    "type": "slider",
+    "label": "Taille max taches (px)",
+    "value": 110,
+    "min": 20,
+    "max": 150,
+    "step": 5,
+    "group": "🩸 Sang"
+  },
+  "bloodFadeIn": {
+    "type": "slider",
+    "label": "Vitesse apparition (ms)",
+    "value": 120,
+    "min": 50,
+    "max": 500,
+    "step": 10,
+    "group": "🩸 Sang"
+  },
+  "bloodHold": {
+    "type": "slider",
+    "label": "Durée visible (ms)",
+    "value": 420,
+    "min": 0,
+    "max": 2000,
+    "step": 50,
+    "group": "🩸 Sang"
+  },
+  "bloodFadeOut": {
+    "type": "slider",
+    "label": "Vitesse disparition (ms)",
+    "value": 880,
+    "min": 100,
+    "max": 2500,
+    "step": 50,
+    "group": "🩸 Sang"
+  },
+  "bloodDripsEnabled": {
+    "type": "checkbox",
+    "label": "Gouttes tombantes",
+    "value": true,
+    "group": "🩸 Sang"
+  },
+  "showHellfire": {
+    "type": "checkbox",
+    "label": "Flammes en bas",
+    "value": true,
+    "group": "🔥 Cadre Diablo"
+  },
+  "showEmbers": {
+    "type": "checkbox",
+    "label": "Braises flottantes",
+    "value": true,
+    "group": "🔥 Cadre Diablo"
+  },
+  "showSideFlames": {
+    "type": "checkbox",
+    "label": "Flamèches sur les bords",
+    "value": true,
+    "group": "🔥 Cadre Diablo"
+  },
+  "showHeaderDrips": {
+    "type": "checkbox",
+    "label": "Drips de sang titre",
+    "value": true,
+    "group": "🔥 Cadre Diablo"
+  },
+  "hideDelay": {
+    "type": "slider",
+    "label": "Délai masquage après dernier message (sec)",
+    "value": 30,
+    "min": 0,
+    "max": 180,
+    "step": 5,
+    "group": "👁️ Visibilité & Idle"
+  },
+  "showIdlePulse": {
+    "type": "checkbox",
+    "label": "Message fantôme si aucun chat",
+    "value": true,
+    "group": "👁️ Visibilité & Idle"
+  },
+  "idlePulseInterval": {
+    "type": "slider",
+    "label": "Intervalle entre fantômes (sec)",
+    "value": 5,
+    "min": 2,
+    "max": 60,
+    "step": 1,
+    "group": "👁️ Visibilité & Idle"
+  },
+  "idlePulseShowDuration": {
+    "type": "slider",
+    "label": "Durée affichage fantôme (ms)",
+    "value": 2500,
+    "min": 1000,
+    "max": 6000,
+    "step": 250,
+    "group": "👁️ Visibilité & Idle"
+  },
+  "msgMaxCount": {
+    "type": "number",
+    "label": "Max messages affichés",
+    "value": 7,
+    "min": 3,
+    "max": 20,
+    "step": 1,
+    "group": "📐 Mise en page"
+  },
+  "chatWidth": {
+    "type": "slider",
+    "label": "Largeur widget (px)",
+    "value": 440,
+    "min": 280,
+    "max": 900,
+    "step": 10,
+    "group": "📐 Mise en page"
+  },
+  "msgSpacing": {
+    "type": "slider",
+    "label": "Espacement messages (px)",
+    "value": 7,
+    "min": 0,
+    "max": 30,
+    "step": 1,
+    "group": "📐 Mise en page"
+  },
+  "msgBorderRadius": {
+    "type": "slider",
+    "label": "Arrondi bulles (px)",
+    "value": 2,
+    "min": 0,
+    "max": 20,
+    "step": 1,
+    "group": "📐 Mise en page"
+  },
+  "showTimestamp": {
+    "type": "checkbox",
+    "label": "Afficher timestamps",
+    "value": false,
+    "group": "📐 Mise en page"
+  },
+  "showBadges": {
+    "type": "checkbox",
+    "label": "Afficher badges",
+    "value": true,
+    "group": "📐 Mise en page"
+  },
+  "fontName": {
+    "type": "googleFont",
+    "label": "Police messages",
+    "value": "Exo 2",
+    "group": "🔤 Typographie"
+  },
+  "fontSize": {
+    "type": "slider",
+    "label": "Taille texte base (px)",
+    "value": 14,
+    "min": 10,
+    "max": 36,
+    "step": 1,
+    "group": "🔤 Typographie"
+  },
+  "usernameFontSize": {
+    "type": "slider",
+    "label": "Taille pseudo (px)",
+    "value": 12,
+    "min": 8,
+    "max": 28,
+    "step": 1,
+    "group": "🔤 Typographie"
+  },
+  "fontWeight": {
+    "type": "dropdown",
+    "label": "Graisse texte",
+    "value": "400",
+    "options": {
+      "300": "Light",
+      "400": "Normal",
+      "600": "Semi-Bold",
+      "700": "Bold"
+    },
+    "group": "🔤 Typographie"
+  },
+  "animInType": {
+    "type": "dropdown",
+    "label": "Animation entrée message",
+    "value": "slideUp",
+    "options": {
+      "slideUp": "Glisser bas",
+      "slideLeft": "Glisser gauche",
+      "slideRight": "Glisser droite",
+      "pop": "Pop",
+      "fade": "Fondu"
+    },
+    "group": "🎬 Animations entrée"
+  },
+  "animInDuration": {
+    "type": "slider",
+    "label": "Durée animation entrée (ms)",
+    "value": 360,
+    "min": 100,
+    "max": 1200,
+    "step": 50,
+    "group": "🎬 Animations entrée"
+  },
+  "msgLifetime": {
+    "type": "slider",
+    "label": "Durée de vie message (sec, 0=∞)",
+    "value": 30,
+    "min": 0,
+    "max": 120,
+    "step": 5,
+    "group": "🎬 Animations entrée"
+  },
+  "fadeOutDuration": {
+    "type": "slider",
+    "label": "Durée animation sortie (ms)",
+    "value": 550,
+    "min": 100,
+    "max": 2000,
+    "step": 50,
+    "group": "🎬 Animations entrée"
+  },
+  "hideCommands": {
+    "type": "checkbox",
+    "label": "Masquer commandes (!cmd)",
+    "value": false,
+    "group": "⚙️ Filtres"
+  },
+  "hideBots": {
+    "type": "checkbox",
+    "label": "Masquer bots connus",
+    "value": true,
+    "group": "⚙️ Filtres"
+  },
+  "minMessageLength": {
+    "type": "number",
+    "label": "Longueur min message",
+    "value": 1,
+    "min": 1,
+    "max": 20,
+    "step": 1,
+    "group": "⚙️ Filtres"
+  }
+}
