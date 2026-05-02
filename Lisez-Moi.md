@@ -8,11 +8,11 @@
 ## 🖼️ Aperçu
 
 <p align="center">
-  <img src="https://i.ibb.co/5xC9vDLj/Capture-d-cran-2026-05-01-175915.png" width="100%" alt="Aperçu idle Blood Chat Diablo Edition">
+  <img src="https://i.ibb.co/6Jf1Kk1r/Capture-d-cran-2026-05-01-211512.png" width="600" alt="Aperçu idle Blood Chat Diablo Edition">
 </p>
 
 <p align="center">
-  <img src="https://i.ibb.co/krjtXqh/Capture-d-cran-2026-05-01-175951.png" width="100%" alt="Aperçu messages Blood Chat Diablo Edition">
+  <img src="https://i.ibb.co/4nL0yKkV/Capture-d-cran-2026-05-01-211525.png" width="600" alt="Aperçu messages Blood Chat Diablo Edition">
 </p>
 
 ---
@@ -42,6 +42,16 @@ Le projet repose sur 4 composants principaux :
 - `CSS.css` → Design + animations + effets visuels  
 - `JS.js` → Logique dynamique du chat  
 - `FIELDS.json` → Configuration complète  
+
+---
+
+## 🎨 Important — Rendu visuel
+
+👉 Si ton overlay est **trop transparent** :
+
+- Va dans **🎨 Fond & Couleurs**
+- Augmente **l’opacité**
+- Ajuste jusqu’à obtenir un rendu similaire aux screenshots
 
 ---
 
