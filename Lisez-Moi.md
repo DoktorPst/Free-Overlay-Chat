@@ -8,11 +8,11 @@
 ## 🖼️ Aperçu
 
 <p align="center">
-  <img src="https://i.ibb.co/6Jf1Kk1r/Capture-d-cran-2026-05-01-211512.png" width="600" alt="Aperçu idle Blood Chat Diablo Edition">
+  <img src="https://i.imgur.com/aKPfpZS.png" width="600" alt="Aperçu idle Blood Chat Diablo Edition">
 </p>
 
 <p align="center">
-  <img src="https://i.ibb.co/4nL0yKkV/Capture-d-cran-2026-05-01-211525.png" width="600" alt="Aperçu messages Blood Chat Diablo Edition">
+  <img src="https://i.imgur.com/aCjebsC.png" width="600" alt="Aperçu messages Blood Chat Diablo Edition">
 </p>
 
 ---
